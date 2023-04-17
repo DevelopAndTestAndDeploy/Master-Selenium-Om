@@ -6,13 +6,13 @@ public class DriverManagerFactory {
 
     public static DriverManager getManager(DriverType driverType){
         switch (driverType) {
-            case CHROME -> {
+            case CHROME : {
                 return new ChromeDriverManager();
             }
-            case FIREFOX -> {
+            case FIREFOX : {
                 return new FirefoxDriverManager();
             }
-            default -> throw new IllegalStateException("Invalid driver " + driverType);
+            default : throw new IllegalStateException("Invalid driver " + driverType);
         }
     }
 
