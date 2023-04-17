@@ -1,2 +1,4 @@
-package org.selenium.pom.utils;public class Dummy {
+package org.selenium.pom.utils;
+
+public class Dummy{
 }
